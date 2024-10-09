@@ -1,6 +1,6 @@
 baseURL: "https://arkalim.netlify.app"
 languageCode: en-us
-title: Abdur Rahman
+title: Nicolas Saint
 theme: PaperMod
 
 menu:
@@ -9,22 +9,26 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
-      weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects
-      weight: 30
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog
+    #   weight: 20
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects
+    #   weight: 30
+    - identifier: education
+      name: Education
+      url: /education
+      weight: 35
     - identifier: experience
       name: Experience
       url: /experience
       weight: 40
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 50
+    # - identifier: search
+    #   name: Search
+    #   url: /search
+    #   weight: 50
     # - identifier: tags
     #   name: Tags
     #   url: /tags
@@ -48,16 +52,16 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Hi 👋 I'm Abdur, a tech enthusiast who loves solving complex problems. As a Software Developer in the Backend Infrastructure team at [**Clio**](https://www.clio.com), I'm building robust systems to transform the legal experience for all. By evening, you can find me pushing the limits of my strength at the gym or whipping up my favorite recipe in the kitchen. Let's connect and create something awesome together!
+    title: "Nicolas Saint"
+    subtitle: Hi 👋 I’m Nicolas, a tech and open-source AI 🤗 enthusiast passionate about solving complex problems. As a Data Science intern at the [**Ministry of Economy and Finance**](https://www.economie.gouv.fr/), I’m developing robust, sovereign, and privacy-focused AI tools (chatbots, RAG systems, summarization tools...) for the French government using state-of-the-art open-source models.
 
- 
-    imageUrl: "home/casual-small-square.jpeg"
+
+    imageUrl: "home/nicolassaint-london.jpg"
     imageWidth: 220
     imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: ""
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1tIEjer-gTrKwKipt7h65y3tN4NgUV09d/view"
 
   # List View
   hideDescriptionInList: false
@@ -69,13 +73,13 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:nicolas.saint@polytechnique.edu"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/nicolas-saint"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/nicolassaint"
+    # - name: "youtube"
+    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
 
   # text search
   fuseOpts:
