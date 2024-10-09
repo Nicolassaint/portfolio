@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Management on Nicolas Saint</title>
-    <link>https://arkalim.netlify.app/tags/management/</link>
+    <link>https://nicolassaint.github.io/portfolio/tags/management/</link>
     <description>Recent content in Management on Nicolas Saint</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://arkalim.netlify.app/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nicolassaint.github.io/portfolio/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chief Information Officer</title>
-      <link>https://arkalim.netlify.app/experience/jeece/</link>
+      <link>https://nicolassaint.github.io/portfolio/experience/jeece/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arkalim.netlify.app/experience/jeece/</guid>
+      <guid>https://nicolassaint.github.io/portfolio/experience/jeece/</guid>
       <description>JEECE | Paris, France</description>
     </item>
     

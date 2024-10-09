@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Junior-Entreprise on Nicolas Saint</title>
-    <link>https://arkalim.netlify.app/tags/junior-entreprise/</link>
+    <link>https://nicolassaint.github.io/portfolio/tags/junior-entreprise/</link>
     <description>Recent content in Junior-Entreprise on Nicolas Saint</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://arkalim.netlify.app/tags/junior-entreprise/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nicolassaint.github.io/portfolio/tags/junior-entreprise/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Organizational Auditor-Consultant</title>
-      <link>https://arkalim.netlify.app/experience/cnje/</link>
+      <link>https://nicolassaint.github.io/portfolio/experience/cnje/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arkalim.netlify.app/experience/cnje/</guid>
+      <guid>https://nicolassaint.github.io/portfolio/experience/cnje/</guid>
       <description>National Confederation of Junior-Entreprises | France</description>
     </item>
     
     <item>
       <title>Chief Information Officer</title>
-      <link>https://arkalim.netlify.app/experience/jeece/</link>
+      <link>https://nicolassaint.github.io/portfolio/experience/jeece/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arkalim.netlify.app/experience/jeece/</guid>
+      <guid>https://nicolassaint.github.io/portfolio/experience/jeece/</guid>
       <description>JEECE | Paris, France</description>
     </item>
     
