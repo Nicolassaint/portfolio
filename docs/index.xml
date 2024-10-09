@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nicolas Saint</title>
+    <link>https://arkalim.netlify.app/</link>
+    <description>Recent content on Nicolas Saint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://arkalim.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I passed the AWS DVA Certification Exam</title>
+      <link>https://arkalim.netlify.app/blog/aws-dva-certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/aws-dva-certification/</guid>
+      <description>How I passed the AWS Developer - Associate Certification Exam (DVA-C02)</description>
+    </item>
+    
+    <item>
+      <title>I passed the AWS SAA Certification Exam</title>
+      <link>https://arkalim.netlify.app/blog/aws-saa-certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/aws-saa-certification/</guid>
+      <description>How I passed the AWS Solutions Architect-Associate Certification Exam</description>
+    </item>
+    
+    <item>
+      <title>Kindle to Notion</title>
+      <link>https://arkalim.netlify.app/blog/kindle-to-notion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/kindle-to-notion/</guid>
+      <description>A way to seamlessly transfer your Kindle highlights to Notion Database!</description>
+    </item>
+    
+    <item>
+      <title>Face Landmarks Detection using CNN</title>
+      <link>https://arkalim.netlify.app/blog/face-landmarks-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/face-landmarks-detection/</guid>
+      <description>Can computers really understand the human face?</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning - Visualized</title>
+      <link>https://arkalim.netlify.app/blog/machine-learning-visualized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/machine-learning-visualized/</guid>
+      <description>A visual approach to understand machine learning</description>
+    </item>
+    
+    <item>
+      <title>Face Dataset Compression using PCA</title>
+      <link>https://arkalim.netlify.app/blog/face-dataset-compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/face-dataset-compression/</guid>
+      <description>Principal Component Analysis for Image Dataset Compression</description>
+    </item>
+    
+    <item>
+      <title>Principal Component Analysis - Visualized</title>
+      <link>https://arkalim.netlify.app/blog/pca-visualized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/blog/pca-visualized/</guid>
+      <description>Data compression using Principal Component Analysis (PCA)</description>
+    </item>
+    
+    <item>
+      <title>Obsidian Publish using GitHub Action</title>
+      <link>https://arkalim.netlify.app/projects/obsidian-publish-github-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/obsidian-publish-github-action/</guid>
+      <description>A custom GitHub Action to publish Obsidian notes as a website</description>
+    </item>
+    
+    <item>
+      <title>Kindle to Notion</title>
+      <link>https://arkalim.netlify.app/projects/kindle-to-notion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/kindle-to-notion/</guid>
+      <description>A way to seamlessly transfer your Kindle highlights to Notion Database!</description>
+    </item>
+    
+    <item>
+      <title>Automated Image Captioning (Bachelor Thesis)</title>
+      <link>https://arkalim.netlify.app/projects/automated-image-captioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/automated-image-captioning/</guid>
+      <description>Can computers summarize the contents of an image?</description>
+    </item>
+    
+    <item>
+      <title>Todo List App</title>
+      <link>https://arkalim.netlify.app/projects/todo-list-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/todo-list-app/</guid>
+      <description>A Todo list web application built using React</description>
+    </item>
+    
+    <item>
+      <title>Face Landmarks Detection using CNN</title>
+      <link>https://arkalim.netlify.app/projects/face-landmarks-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/face-landmarks-detection/</guid>
+      <description>Can computers really understand the human face?</description>
+    </item>
+    
+    <item>
+      <title>Gaze-tracking Goggles</title>
+      <link>https://arkalim.netlify.app/projects/gaze-tracking-goggles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/gaze-tracking-goggles/</guid>
+      <description>Smart Goggles for Gaze Analysis</description>
+    </item>
+    
+    <item>
+      <title>OpenQuad</title>
+      <link>https://arkalim.netlify.app/projects/openquad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/openquad/</guid>
+      <description>Open-souce platform for drone automation</description>
+    </item>
+    
+    <item>
+      <title>Search and Reconnaissance Robot</title>
+      <link>https://arkalim.netlify.app/projects/search-and-reconnaissance-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/search-and-reconnaissance-robot/</guid>
+      <description>An all-terrain robot for disaster management!</description>
+    </item>
+    
+    <item>
+      <title>SEBART-Pro</title>
+      <link>https://arkalim.netlify.app/projects/sebart-pro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/projects/sebart-pro/</guid>
+      <description>A smart self-balancing robot!</description>
+    </item>
+    
+    <item>
+      <title>M2 Data Science</title>
+      <link>https://arkalim.netlify.app/education/polytechnique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/education/polytechnique/</guid>
+      <description>École Polytechnique | Paris, France</description>
+    </item>
+    
+    <item>
+      <title>Data Scientist intern (AI &amp; LLM&#39;s)</title>
+      <link>https://arkalim.netlify.app/experience/bercy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/experience/bercy/</guid>
+      <description>Ministry of Economy and Finance | Paris, France</description>
+    </item>
+    
+    <item>
+      <title>Engineering degree</title>
+      <link>https://arkalim.netlify.app/education/ece/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/education/ece/</guid>
+      <description>ECE | Paris, France</description>
+    </item>
+    
+    <item>
+      <title>Consulting Intern in IT Project Management</title>
+      <link>https://arkalim.netlify.app/experience/devoteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/experience/devoteam/</guid>
+      <description>Devoteam | Levallois-Perret, France</description>
+    </item>
+    
+    <item>
+      <title>Organizational Auditor-Consultant</title>
+      <link>https://arkalim.netlify.app/experience/cnje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/experience/cnje/</guid>
+      <description>National Confederation of Junior-Entreprises | France</description>
+    </item>
+    
+    <item>
+      <title>Chief Information Officer</title>
+      <link>https://arkalim.netlify.app/experience/jeece/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arkalim.netlify.app/experience/jeece/</guid>
+      <description>JEECE | Paris, France</description>
+    </item>
+    
+    
+  </channel>
+</rss>
