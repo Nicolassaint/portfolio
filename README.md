@@ -10,6 +10,7 @@ This repository contains the source code and content for my personal portfolio a
     - [Install Hugo](#install-hugo)
     - [Install Node.js](#install-nodejs)
     - [Clone the Repository](#clone-the-repository)
+    - [Install papermod](#install-papermod)
     - [Install Dependencies](#install-dependencies)
   - [Running the Site Locally](#running-the-site-locally)
   - [Deploying the Site](#deploying-the-site)
@@ -47,6 +48,12 @@ npm -v
 ```bash
 git clone
 cd nicolassaint.github.io
+```
+
+### Install papermod
+
+```bash
+git submodule update --init --recursive
 ```
 
 ### Install Dependencies
