@@ -1,5 +1,7 @@
 baseURL: "https://nicolassaint.github.io/portfolio"
 publishDir: "docs"
+relativeURLs: false
+canonifyURLs: true
 languageCode: en-us
 title: Nicolas Saint
 theme: PaperMod
@@ -8,7 +10,7 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /
+      url: /portfolio/
       weight: 10
     # - identifier: blog
     #   name: Blog
@@ -20,11 +22,11 @@ menu:
     #   weight: 30
     - identifier: education
       name: Education
-      url: /education
+      url: /portfolio/education/
       weight: 35
     - identifier: experience
       name: Experience
-      url: /experience
+      url: /portfolio/experience/
       weight: 40
     # - identifier: search
     #   name: Search

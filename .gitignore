@@ -1,1 +1,14 @@
+# Dossier public généré par Hugo
+public/
+
+# Dossier docs/ si vous n'utilisez pas cette méthode pour le déploiement
+docs/
+
+# Dépendances Node.js
 node_modules/
+
+# Fichiers temporaires ou de cache
+*.log
+*.DS_Store
+*.bak
+*.hugo_build.lock
