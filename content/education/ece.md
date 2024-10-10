@@ -19,9 +19,9 @@ weight: 301
 
 #### Some Projects on GitHub
 
-[Blog in Next.js](https://github.com/Nicolassaint/ece-webapp-saint-chopin)
+<a href="https://github.com/Nicolassaint/ece-webapp-saint-chopin" target="_blank">Blog in Next.js</a>
 
-[DevOps project](https://github.com/Nicolassaint/ece-devops-saint-chopin)
+<a href="https://github.com/Nicolassaint/ece-devops-saint-chopin" target="_blank">DevOps project</a>
 
 <br>
 

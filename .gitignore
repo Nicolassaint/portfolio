@@ -15,3 +15,6 @@ node_modules/
 
 # Worfklow GitHub Actions for Hugo
 .github/workflows/
+
+# Token for the API
+api-token.js

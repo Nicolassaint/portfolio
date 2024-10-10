@@ -28,6 +28,10 @@ menu:
       name: Experience
       url: /portfolio/experience/
       weight: 40
+    - identifier: chat
+      name: Chat
+      url: /portfolio/chat/
+      weight: 50
     # - identifier: search
     #   name: Search
     #   url: /search
@@ -94,6 +98,13 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
+  # Add the API configuration
+  api:
+    endpoint: "https://api.olympia.bhub.cloud/generate"
+    model: "llama3.1"
+    temperature: 0.7
+    stream: false
+
 # for search using Fuse.js
 outputs:
   home:
@@ -106,3 +117,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+# # Languages
+# languages:
+#   en:
+#     weight: 1
+#   fr:
+#     weight: 2
+

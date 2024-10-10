@@ -16,7 +16,7 @@ weight: 301
 
 <br>
 
-Building AI POC called <a href="https://olympia.bhub.cloud" target="_blank">**OlympIA**</a> for the Ministry of Economy and Finance in the Bercy HUB team.
+Building an AI POC called <a href="https://olympia.bhub.cloud" target="_blank">**OlympIA**</a> for the Ministry of Economy and Finance in the Bercy HUB team.
 
 <div style="text-align: center;">
     <img src="/experience/bercy/vlad_marina_vivatech.jpg" alt="Description de l'image">
