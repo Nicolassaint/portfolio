@@ -1,4 +1,4 @@
-baseURL: "https://nicolassaint.github.io/portfolio"
+baseURL: "https://nicolassaint.github.io/"
 publishDir: "docs"
 relativeURLs: false
 canonifyURLs: true
@@ -10,7 +10,7 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /portfolio/
+      url: /
       weight: 10
     # - identifier: blog
     #   name: Blog
@@ -22,15 +22,15 @@ menu:
     #   weight: 30
     - identifier: education
       name: Education
-      url: /portfolio/education/
+      url: /education/
       weight: 35
     - identifier: experience
       name: Experience
-      url: /portfolio/experience/
+      url: /experience/
       weight: 40
     - identifier: chat
       name: Chat
-      url: /portfolio/chat/
+      url: /chat/
       weight: 50
     # - identifier: search
     #   name: Search
