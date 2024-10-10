@@ -28,7 +28,6 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env:
@@ -43,8 +42,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
+          submodules: true  # This ensures submodules are fetched
+      - name: Initialize Submodules
+        run: git submodule update --init --recursive  # Explicitly initialize submodules
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -64,6 +65,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs
+
 
   # Deployment job
   deploy:
