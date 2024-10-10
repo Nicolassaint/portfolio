@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>LangChain | Nicolas Saint</title>
+<title>Chat with AI Assistant | Nicolas Saint</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Chat with our AI Assistant">
 <meta name="author" content="">
-<link rel="canonical" href="https://nicolassaint.github.io/portfolio/tags/langchain/">
+<link rel="canonical" href="https://nicolassaint.github.io/portfolio/chat/">
 <link crossorigin="anonymous" href="https://nicolassaint.github.io/portfolio/assets/css/stylesheet.min.a72801f0f40a8d7f71aa1cafd1c2f2a993a1f26ca1cfd38fdba65d5b9b0f08a0.css" integrity="sha256-pygB8PQKjX9xqhyv0cLyqZOh8myhz9OP26ZdW5sPCKA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://nicolassaint.github.io/portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://nicolassaint.github.io/portfolio/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://nicolassaint.github.io/portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://nicolassaint.github.io/portfolio/tags/langchain/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://nicolassaint.github.io/portfolio/chat/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,15 +55,30 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="LangChain" />
+</noscript><meta property="og:title" content="Chat with AI Assistant" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://nicolassaint.github.io/portfolio/tags/langchain/" />
+<meta property="og:url" content="https://nicolassaint.github.io/portfolio/chat/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LangChain"/>
+<meta name="twitter:title" content="Chat with AI Assistant"/>
 <meta name="twitter:description" content=""/>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Chat with AI Assistant",
+      "item": "https://nicolassaint.github.io/portfolio/chat/"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="list" id="top">
@@ -123,7 +138,7 @@
             </li>
             <li>
                 <a href="https://nicolassaint.github.io/portfolio/chat/" title="Chat">
-                    <span>Chat</span>
+                    <span class="active">Chat</span>
                 </a>
             </li>
         </ul>
@@ -132,28 +147,170 @@
      <link rel="stylesheet" href="https://nicolassaint.github.io/portfolio/css/chat.css">
      <script src="https://nicolassaint.github.io/portfolio/js/chat.js"></script>
 </header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://nicolassaint.github.io/portfolio">Home</a>&nbsp;»&nbsp;<a href="https://nicolassaint.github.io/portfolio/tags/">Tags</a></div>
-  <h1>
-    LangChain
-  </h1>
-</header>
+<main class="main">
+    <article class="post-single">
+        <header class="post-header">
+            <h1 class="post-title">Chat with AI Assistant</h1>
+        </header>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Data Scientist intern (AI &amp; LLM&#39;s)
-    </h2>
-  </header>
-  
-  <div class="entry-content">
-    <p>Ministry of Economy and Finance | Paris, France</p>
-  </div>
-  <footer class="entry-footer">
+        <div class="post-content">
+            
 
 
-April 2024 - Present</footer>
-  <a class="entry-link" aria-label="post link to Data Scientist intern (AI &amp; LLM&#39;s)" href="https://nicolassaint.github.io/portfolio/experience/bercy/"></a>
-</article>
+
+
+
+
+<div class="chat-container">
+    <div class="chat-box">
+        <div class="chat-messages" id="chat-box">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Hello! I'm an AI assistant who can tell you about Nicolas's professional experience and skills. How can I help you today?
+                </div>
+            </div>
+            <div class="typing-indicator" id="typing-indicator">
+                <div class="dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+        <div class="input-area">
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Type your message..." />
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://nicolassaint.github.io/portfolio/js/chat-bundle.min.js"></script>
+
+<style>
+.chat-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.chat-box {
+    background: var(--entry);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.message-content {
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin: 4px 0;
+}
+
+.user-message .message-content {
+    background: var(--primary);
+    color: var(--entry);
+    margin-left: auto;
+}
+
+.bot-message .message-content {
+    background: var(--border);
+    color: var(--content);
+}
+
+.input-area {
+    padding: 20px;
+    border-top: 1px solid var(--border);
+    background: var(--entry);
+    border-radius: 0 0 12px 12px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--background);
+    color: var(--content);
+    font-size: 16px;
+}
+
+#send-button {
+    padding: 12px 24px;
+    background: var(--primary);
+    color: var(--entry);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+#send-button:hover {
+    opacity: 0.9;
+}
+
+.typing-indicator {
+    display: none;
+    padding: 12px 16px;
+    background: var(--border);
+    border-radius: 12px;
+    color: var(--content);
+    width: fit-content;
+}
+
+.dots {
+    display: inline-flex;
+    gap: 4px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 50%;
+    animation: bounce 1.4s infinite;
+}
+
+.dot:nth-child(2) { animation-delay: 0.2s; }
+.dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+</style>
+        </div>
+    </article>
+
     </main>
     
 <footer class="footer">
