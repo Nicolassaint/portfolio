@@ -1,4 +1,4 @@
-baseURL: "https://nicolassaint.github.io/"
+baseURL: "https://nicolassaint.fr/"
 publishDir: "docs"
 relativeURLs: false
 canonifyURLs: true
@@ -87,6 +87,9 @@ params:
       url: "https://github.com/nicolassaint"
     # - name: "youtube"
     #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
+
+  customCSS:
+    - "css/social-icons.css"
 
   # text search
   fuseOpts:

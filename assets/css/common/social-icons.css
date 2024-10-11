@@ -1,0 +1,42 @@
+/* Default transition for all social icons */
+.social-icons a {
+    display: inline-block; /* Ensure block-level for transform */
+    transition: transform 0.2s ease, color 0.1s ease;
+}
+
+/* Email icon color */
+.social-icons a[href^="mailto:"]:hover {
+    color: #D44638;
+}
+
+/* LinkedIn icon color */
+.social-icons a[href*="linkedin.com"]:hover {
+    color: #0077b5;
+}
+
+/* GitHub icon color */
+.social-icons a[href*="github.com"]:hover {
+    color: #333;
+}
+
+/* Enlarge both the anchor tag and any inner svg or icon */
+.social-icons a:hover {
+    transform: scale(1.2); /* Apply scaling */
+}
+
+/* Enlarge inner svg or icon specifically */
+.social-icons a svg, .social-icons a i {
+    transition: inherit; /* Inherit the transition from the parent */
+}
+
+.social-icons a:hover svg, .social-icons a:hover i {
+    transform: scale(1.2); /* Ensure that svg or icon enlarges */
+}
+
+/* Resume button on hover */
+.buttons a:hover {
+    background-color: #005582; /* Slightly darker blue */
+    transform: scale(1.05); /* Small enlargement (5% bigger) */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}

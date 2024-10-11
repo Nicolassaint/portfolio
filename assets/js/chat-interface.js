@@ -20,7 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         `;
         chatBox.insertBefore(messageDiv, typingIndicator);
-        chatBox.scrollTop = chatBox.scrollHeight;
+
+
+        // Manually scroll to show a bit of the previous message
+        const previousMessageHeight = messageDiv.previousElementSibling
+        ? messageDiv.previousElementSibling.offsetHeight
+        : 0;
+        const padding = 250; // Adjust the padding to show part of the previous message
+        console.log(padding)
+        chatBox.scrollTop = messageDiv.offsetTop - previousMessageHeight - padding;
     }
 
     function showTypingIndicator() {
