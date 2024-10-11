@@ -15,5 +15,14 @@
       <description>ECE | Paris, France</description>
     </item>
     
+    <item>
+      <title>Chat with Nicolas&#39;s AI Assistant</title>
+      <link>https://nicolassaint.fr/chat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/chat/</guid>
+      <description>Chat with our AI Assistant</description>
+    </item>
+    
   </channel>
 </rss>

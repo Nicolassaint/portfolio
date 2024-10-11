@@ -2,38 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nicolassaint.fr/blog/aws-dva-certification/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/aws-saa-certification/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/kindle-to-notion/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/face-landmarks-detection/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/machine-learning-visualized/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/face-dataset-compression/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/pca-visualized/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/obsidian-publish-github-action/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/kindle-to-notion/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/automated-image-captioning/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/todo-list-app/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/face-landmarks-detection/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/gaze-tracking-goggles/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/openquad/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/search-and-reconnaissance-robot/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/sebart-pro/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/education/polytechnique/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/experience/bercy/</loc>
@@ -46,23 +14,15 @@
   </url><url>
     <loc>https://nicolassaint.fr/experience/jeece/</loc>
   </url><url>
+    <loc>https://nicolassaint.fr/chat/</loc>
+  </url><url>
     <loc>https://nicolassaint.fr/tags/agile/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/ai/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/arduino/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/artificial-intelligence/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/audit/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/automation/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/aws/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/bash/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/blog/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/c/</loc>
   </url><url>
@@ -70,41 +30,17 @@
   </url><url>
     <loc>https://nicolassaint.fr/categories/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/certification/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/chat/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/cnje/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/cnn/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/computer-science/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/computer-vision/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/consulting/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/crnn/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/css/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/data/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/data-compression/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/data-science/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/developer/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/developer-associate/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/dl/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/docker/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/drone/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/dva/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/education/</loc>
   </url><url>
@@ -112,19 +48,9 @@
   </url><url>
     <loc>https://nicolassaint.fr/experience/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/frontend-development/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/github-action/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/github-actions/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/google-script/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/html/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/hugging-face/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/integration/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/it/</loc>
   </url><url>
@@ -142,13 +68,9 @@
   </url><url>
     <loc>https://nicolassaint.fr/tags/llm/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/lstm/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/management/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/maths/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/mkdocs/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/ml/</loc>
   </url><url>
@@ -156,31 +78,9 @@
   </url><url>
     <loc>https://nicolassaint.fr/tags/nlp/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/node.js/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/nodejs/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/optimization/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/pca/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/projects/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/python/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/pytorch/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/raspberry-pi/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/react/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/regex/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/rest-api/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/robotics/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/saa/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/scrum/</loc>
   </url><url>
@@ -188,20 +88,12 @@
   </url><url>
     <loc>https://nicolassaint.fr/tags/servicenow/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/solutions-architect/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/statistics/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/streamlit/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/tags/</loc>
   </url><url>
-    <loc>https://nicolassaint.fr/tags/typescript/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/visualization/</loc>
-  </url><url>
     <loc>https://nicolassaint.fr/tags/web/</loc>
-  </url><url>
-    <loc>https://nicolassaint.fr/tags/web-development/</loc>
   </url>
 </urlset>

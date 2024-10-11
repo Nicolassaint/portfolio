@@ -25,15 +25,6 @@
     </item>
     
     <item>
-      <title>Arduino</title>
-      <link>https://nicolassaint.fr/tags/arduino/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Artificial Intelligence</title>
       <link>https://nicolassaint.fr/tags/artificial-intelligence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,33 +39,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/audit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automation</title>
-      <link>https://nicolassaint.fr/tags/automation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>https://nicolassaint.fr/tags/aws/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bash</title>
-      <link>https://nicolassaint.fr/tags/bash/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/bash/</guid>
       <description></description>
     </item>
     
@@ -97,29 +61,11 @@
     </item>
     
     <item>
-      <title>Certification</title>
-      <link>https://nicolassaint.fr/tags/certification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/certification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CNJE</title>
       <link>https://nicolassaint.fr/tags/cnje/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/cnje/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CNN</title>
-      <link>https://nicolassaint.fr/tags/cnn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/cnn/</guid>
       <description></description>
     </item>
     
@@ -133,38 +79,11 @@
     </item>
     
     <item>
-      <title>Computer Vision</title>
-      <link>https://nicolassaint.fr/tags/computer-vision/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Consulting</title>
       <link>https://nicolassaint.fr/tags/consulting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/consulting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CRNN</title>
-      <link>https://nicolassaint.fr/tags/crnn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/crnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CSS</title>
-      <link>https://nicolassaint.fr/tags/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/css/</guid>
       <description></description>
     </item>
     
@@ -178,38 +97,11 @@
     </item>
     
     <item>
-      <title>Data Compression</title>
-      <link>https://nicolassaint.fr/tags/data-compression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/data-compression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Data Science</title>
       <link>https://nicolassaint.fr/tags/data-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developer</title>
-      <link>https://nicolassaint.fr/tags/developer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/developer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developer Associate</title>
-      <link>https://nicolassaint.fr/tags/developer-associate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/developer-associate/</guid>
       <description></description>
     </item>
     
@@ -223,65 +115,11 @@
     </item>
     
     <item>
-      <title>Docker</title>
-      <link>https://nicolassaint.fr/tags/docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Drone</title>
-      <link>https://nicolassaint.fr/tags/drone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/drone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DVA</title>
-      <link>https://nicolassaint.fr/tags/dva/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/dva/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Excel</title>
       <link>https://nicolassaint.fr/tags/excel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frontend Development</title>
-      <link>https://nicolassaint.fr/tags/frontend-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/frontend-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub Action</title>
-      <link>https://nicolassaint.fr/tags/github-action/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/github-action/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub Actions</title>
-      <link>https://nicolassaint.fr/tags/github-actions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/github-actions/</guid>
       <description></description>
     </item>
     
@@ -295,29 +133,11 @@
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://nicolassaint.fr/tags/html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hugging Face 🤗</title>
       <link>https://nicolassaint.fr/tags/hugging-face/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/hugging-face/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Integration</title>
-      <link>https://nicolassaint.fr/tags/integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/integration/</guid>
       <description></description>
     </item>
     
@@ -394,15 +214,6 @@
     </item>
     
     <item>
-      <title>LSTM</title>
-      <link>https://nicolassaint.fr/tags/lstm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/lstm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Management</title>
       <link>https://nicolassaint.fr/tags/management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -417,15 +228,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/maths/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MkDocs</title>
-      <link>https://nicolassaint.fr/tags/mkdocs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/mkdocs/</guid>
       <description></description>
     </item>
     
@@ -448,24 +250,6 @@
     </item>
     
     <item>
-      <title>Node.JS</title>
-      <link>https://nicolassaint.fr/tags/node.js/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/node.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NodeJS</title>
-      <link>https://nicolassaint.fr/tags/nodejs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/nodejs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Optimization</title>
       <link>https://nicolassaint.fr/tags/optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -475,83 +259,11 @@
     </item>
     
     <item>
-      <title>PCA</title>
-      <link>https://nicolassaint.fr/tags/pca/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/pca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>https://nicolassaint.fr/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>https://nicolassaint.fr/tags/pytorch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Raspberry Pi</title>
-      <link>https://nicolassaint.fr/tags/raspberry-pi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://nicolassaint.fr/tags/react/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RegEx</title>
-      <link>https://nicolassaint.fr/tags/regex/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/regex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>REST API</title>
-      <link>https://nicolassaint.fr/tags/rest-api/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/rest-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robotics</title>
-      <link>https://nicolassaint.fr/tags/robotics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/robotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SAA</title>
-      <link>https://nicolassaint.fr/tags/saa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/saa/</guid>
       <description></description>
     </item>
     
@@ -574,15 +286,6 @@
     </item>
     
     <item>
-      <title>Solutions Architect</title>
-      <link>https://nicolassaint.fr/tags/solutions-architect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/solutions-architect/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Statistics</title>
       <link>https://nicolassaint.fr/tags/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -601,38 +304,11 @@
     </item>
     
     <item>
-      <title>TypeScript</title>
-      <link>https://nicolassaint.fr/tags/typescript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/typescript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>https://nicolassaint.fr/tags/visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Web</title>
       <link>https://nicolassaint.fr/tags/web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>https://nicolassaint.fr/tags/web-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolassaint.fr/tags/web-development/</guid>
       <description></description>
     </item>
     

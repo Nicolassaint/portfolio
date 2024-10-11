@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://nicolassaint.fr/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Todo List App</title>
-      <link>https://nicolassaint.fr/projects/todo-list-app/</link>
+      <title>Chat with Nicolas&#39;s AI Assistant</title>
+      <link>https://nicolassaint.fr/chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nicolassaint.fr/projects/todo-list-app/</guid>
-      <description>A Todo list web application built using React</description>
+      <guid>https://nicolassaint.fr/chat/</guid>
+      <description>Chat with our AI Assistant</description>
     </item>
     
   </channel>
