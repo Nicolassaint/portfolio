@@ -32,18 +32,15 @@ menu:
       name: Chat
       url: /chat/
       weight: 50
-    # - identifier: search
-    #   name: Search
-    #   url: /search
-    #   weight: 50
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 55
     # - identifier: tags
     #   name: Tags
     #   url: /tags
     #   weight: 60
-    # - identifier: notes
-    #   name: Notes
-    #   url: https://notes.arkalim.org
-    #   weight: 70
+
 
 params:
   # theme
