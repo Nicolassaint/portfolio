@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
         ? messageDiv.previousElementSibling.offsetHeight
         : 0;
         const padding = 250; // Adjust the padding to show part of the previous message
-        console.log(padding)
         chatBox.scrollTop = messageDiv.offsetTop - previousMessageHeight - padding;
     }
 

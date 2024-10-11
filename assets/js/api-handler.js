@@ -28,7 +28,7 @@ class APIHandler {
                 body: JSON.stringify(requestBody)
             });
 
-            console.log('Response status:', response.status);
+            // console.log('Response status:', response.status);
 
             if (response.status === 405) {
                 throw new Error(`Method Not Allowed: The server does not allow POST requests at this endpoint.`);
