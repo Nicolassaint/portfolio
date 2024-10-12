@@ -1,0 +1,2 @@
+// This file should be added to .gitignore to keep your token secure
+const API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuc2FpbnQyIiwiZXhwIjoxNzUxNDkzMDgzLCJqdGkiOiJlNDM2OTYyMS01YjE5LTQ2OTQtOTRlMi05MjI2MjAwZGQ0MmQifQ.DIc0OLCW_1JZaLQeKcq_JXLET-0VYuP-Hhf4W--yUYk";

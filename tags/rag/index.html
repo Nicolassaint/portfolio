@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Chat with Nicolas&#39;s AI Assistant | Nicolas Saint</title>
-<meta name="keywords" content="AI, LLM, NLP, Hugging Face 🤗, Web, JavaScript">
-<meta name="description" content="Chat with our AI Assistant">
+<title>RAG | Nicolas Saint</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="https://nicolassaint.fr/chat/">
+<link rel="canonical" href="https://nicolassaint.fr/tags/rag/">
 <link crossorigin="anonymous" href="https://nicolassaint.fr/assets/css/stylesheet.min.d0d3d94771b4757096c7ac2804d05322ef0cc643c39bce8542bf786fd368055c.css" integrity="sha256-0NPZR3G0dXCWx6woBNBTIu8MxkPDm86FQr94b9NoBVw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://nicolassaint.fr/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://nicolassaint.fr/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://nicolassaint.fr/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://nicolassaint.fr/chat/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://nicolassaint.fr/tags/rag/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,30 +55,15 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Chat with Nicolas&#39;s AI Assistant" />
+</noscript><meta property="og:title" content="RAG" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://nicolassaint.fr/chat/" />
+<meta property="og:url" content="https://nicolassaint.fr/tags/rag/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Chat with Nicolas&#39;s AI Assistant"/>
+<meta name="twitter:title" content="RAG"/>
 <meta name="twitter:description" content=""/>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Chat with Nicolas's AI Assistant",
-      "item": "https://nicolassaint.fr/chat/"
-    }
-  ]
-}
-</script>
 </head>
 
 <body class="list" id="top">
@@ -138,7 +123,7 @@
             </li>
             <li>
                 <a href="https://nicolassaint.fr/chat/" title="Chat">
-                    <span class="active">Chat</span>
+                    <span>Chat</span>
                 </a>
             </li>
             <li>
@@ -149,191 +134,28 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-    <article class="post-single">
-        <header class="post-header">
-            <h1 class="post-title">Chat with Nicolas&#39;s AI Assistant</h1>
-        </header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://nicolassaint.fr/">Home</a>&nbsp;»&nbsp;<a href="https://nicolassaint.fr/tags/">Tags</a></div>
+  <h1>
+    RAG
+  </h1>
+</header>
 
-        <div class="post-content">
-            
-
-
-
-
-<div class="chat-container">
-    <div class="chat-box">
-        <div class="chat-messages" id="chat-box">
-            <div class="message bot-message">
-                <div class="message-content">
-                    Hello! I'm an AI assistant who can tell you about Nicolas's professional experience and skills. How can I help you today?
-                </div>
-            </div>
-            <div class="typing-indicator" id="typing-indicator">
-                <div class="dots">
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div>
-            </div>
-        </div>
-        <div class="input-area">
-            <div class="input-container">
-                <input type="text" id="user-input" placeholder="Type your message..." />
-                <button id="send-button">Send</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-<script src="https://nicolassaint.fr/js/api-token.js"></script>
-<script src="https://nicolassaint.fr/js/prompt-system.js"></script>
-<script src="https://nicolassaint.fr/js/api-handler.js"></script>
-<script src="https://nicolassaint.fr/js/chat-interface.js"></script>
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Data Scientist intern (AI &amp; LLM&#39;s)
+    </h2>
+  </header>
+  
+  <div class="entry-content">
+    <p>Ministry of Economy and Finance | Paris, France</p>
+  </div>
+  <footer class="entry-footer">
 
 
-
-<style>
-.chat-container {
-    max-width: 900px;
-    margin: 0 auto 40px auto;
-    padding: 20px;
-    height: 500px;
-}
-
-.chat-box {
-    background: var(--entry);
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.chat-messages {
-    flex-grow: 1;
-    overflow-y: auto;
-    padding: 20px;
-    -webkit-overflow-scrolling: touch;
-
-}
-
-.message {
-    margin-bottom: 20px;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.3s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.message-content {
-    max-width: 80%;
-    padding: 12px 16px;
-    border-radius: 12px;
-    margin: 4px 0;
-}
-
-.user-message .message-content {
-    background: var(--primary);
-    color: var(--entry);
-    margin-left: auto;
-}
-
-.bot-message .message-content {
-    background: var(--border);
-    color: var(--content);
-}
-
-.input-area {
-    padding: 20px;
-    border-top: 1px solid var(--border);
-    background: var(--entry);
-    border-radius: 0 0 12px 12px;
-}
-
-.input-container {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-#user-input {
-    flex-grow: 1;
-    cursor: pointer;
-    padding: 12px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--background);
-    color: var(--content);
-    font-size: 16px;
-}
-
-#user-input:focus {
-    outline: none;
-    border-color: var(--primary);
-    }
-
-#send-button {
-    padding: 12px 24px;
-    background: var(--primary);
-    color: var(--entry);
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: opacity 0.2s;
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#send-button:hover {
-    opacity: 0.9;
-}
-
-.typing-indicator {
-    display: none;
-    padding: 12px 16px;
-    background: var(--border);
-    border-radius: 12px;
-    color: var(--content);
-    width: fit-content;
-}
-
-.dots {
-    display: inline-flex;
-    gap: 4px;
-}
-
-.dot {
-    width: 4px;
-    height: 4px;
-    background: currentColor;
-    border-radius: 50%;
-    animation: bounce 1.4s infinite;
-}
-
-.dot:nth-child(2) { animation-delay: 0.2s; }
-.dot:nth-child(3) { animation-delay: 0.4s; }
-
-@keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-4px); }
-}
-</style>
-        </div>
-    </article>
-
+April 2024 - Present</footer>
+  <a class="entry-link" aria-label="post link to Data Scientist intern (AI &amp; LLM&#39;s)" href="https://nicolassaint.fr/experience/bercy/"></a>
+</article>
     </main>
     
 <footer class="footer">
