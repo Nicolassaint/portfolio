@@ -3,7 +3,7 @@ title: "Data Scientist intern (AI & LLM's)"
 description: "Ministry of Economy and Finance | Paris, France"
 dateString: April 2024 - Present
 draft: false
-tags: ["Python", "LLM", "Artificial Intelligence", "ML", "NLP", "LangChain", "Streamlit", "Hugging Face 🤗"]
+tags: ["Python", "LLM", "Artificial Intelligence", "ML", "NLP", "RAG", "LangChain", "Streamlit", "Hugging Face 🤗"]
 showToc: false
 weight: 301
 ---

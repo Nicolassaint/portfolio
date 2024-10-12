@@ -36,10 +36,6 @@ menu:
       name: Search
       url: /search
       weight: 55
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
 
 
 params:
@@ -82,8 +78,6 @@ params:
       url: "https://www.linkedin.com/in/nicolas-saint"
     - name: "github"
       url: "https://github.com/nicolassaint"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
 
   customCSS:
     - "css/social-icons.css"
@@ -117,11 +111,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-
-# # Languages
-# languages:
-#   en:
-#     weight: 1
-#   fr:
-#     weight: 2
 
