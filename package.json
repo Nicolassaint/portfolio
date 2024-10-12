@@ -4,6 +4,6 @@
   },
   "scripts": {
     "build": "hugo",
-    "deploy": "hugo && gh-pages -d docs"
+    "deploy": "hugo && cp CNAME docs/CNAME && gh-pages -d docs"
   }
 }
