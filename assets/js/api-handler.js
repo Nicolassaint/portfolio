@@ -13,8 +13,8 @@ class APIHandler {
     async sendMessage(userMessage) {
         // console.log(`APIHandler: Envoi du message avec la langue ${this.promptManager.language}`);
         const prompt = this.promptManager.buildPrompt(userMessage);
-        // console.log('Envoi de la requête avec le prompt:', prompt);
-        // console.log('Langue actuelle:', this.promptManager.language); // Ajout d'un log pour vérifier la langue actuelle
+        console.log('Envoi de la requête avec le prompt:', prompt);
+        console.log('Langue actuelle:', this.promptManager.language); // Ajout d'un log pour vérifier la langue actuelle
 
         try {
             const requestBody = {

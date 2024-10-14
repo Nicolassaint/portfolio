@@ -43,11 +43,9 @@
 <script src="{{ $chatInterface.RelPermalink }}"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentLanguage = "{{ .Site.Language.Lang }}";
-    const apiHandler = new APIHandler(currentLanguage);
-    initChatInterface(apiHandler);
-});
+    // Injection de la langue dans une variable globale
+    window.currentLanguage = "{{ .Site.Language.Lang }}";
+    console.log(`ChatInterface: Langue actuelle: ${window.currentLanguage}`);
 </script>
 
 <style>
