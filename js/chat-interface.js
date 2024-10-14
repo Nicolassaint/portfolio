@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const sendButton = document.getElementById("send-button");
     const typingIndicator = document.getElementById("typing-indicator");
 
-    const apiHandler = new APIHandler();
+    const apiHandler = new APIHandler(window.currentLanguage);
 
     function addMessage(content, isUser = false, isError = false) {
         const messageDiv = document.createElement("div");

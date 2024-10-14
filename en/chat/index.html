@@ -208,11 +208,9 @@
 <script src="https://nicolassaint.fr/js/chat-interface.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const currentLanguage = "en";
-    const apiHandler = new APIHandler(currentLanguage);
-    initChatInterface(apiHandler);
-});
+    
+    window.currentLanguage = "en";
+    console.log(`ChatInterface: Langue actuelle: ${window.currentLanguage}`);
 </script>
 
 <style>

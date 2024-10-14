@@ -85,7 +85,7 @@ Veuillez garder les réponses axées sur les aspects professionnels et pertinent
 };
 
 class PromptManager {
-    constructor(language = 'en') {
+    constructor(language = $lang) {
         this.language = language;
         this.conversationHistory = [];
         // console.log(`PromptManager: Création avec la langue ${this.language}`);
@@ -105,7 +105,22 @@ class PromptManager {
             .join('\n');
 
         const systemPrompt = SYSTEM_PROMPT[this.language];
-        return `${systemPrompt}\n\nHistorique de la conversation:\n${conversationContext}\n\nUtilisateur: ${userMessage}\nAssistant:`;
+        const promptStrings = {
+            en: {
+                conversationHistory: "Conversation history:",
+                user: "User:",
+                assistant: "Assistant:"
+            },
+            fr: {
+                conversationHistory: "Historique de la conversation :",
+                user: "Utilisateur :",
+                assistant: "Assistant :"
+            }
+        };
+
+        const strings = promptStrings[this.language];
+
+        return `${systemPrompt}\n\n${strings.conversationHistory}\n${conversationContext}\n\n${strings.user} ${userMessage}\n${strings.assistant}`;
     }
 
     addToHistory(role, content) {
