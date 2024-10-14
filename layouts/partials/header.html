@@ -96,16 +96,19 @@
 
                 {{- $lang := .Lang}}
                 {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
-                {{- with site.Home.AllTranslations }}
+                {{- $currentPage := . }}
+                {{- with .Translations }}
                 <ul class="lang-switch">
                     {{- if $separator }}<li>|</li>{{ end }}
                     {{- range . -}}
                     {{- if ne $lang .Lang }}
                     <li>
-                        <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+                        <a href="{{ .Permalink }}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
                             aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                            {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
-                            {{- .Language.LanguageName | emojify -}}
+                            {{- if eq .Lang "fr" }}
+                            &#x1F1EB;&#x1F1F7;
+                            {{- else if eq .Lang "en" }}
+                            &#x1F1EC;&#x1F1E7;
                             {{- else }}
                             {{- .Lang | title -}}
                             {{- end -}}
@@ -114,6 +117,31 @@
                     {{- end -}}
                     {{- end}}
                 </ul>
+                {{- else }}
+                {{- with site.Home.AllTranslations }}
+                <ul class="lang-switch">
+                    {{- if $separator }}<li>|</li>{{ end }}
+                    {{- range . -}}
+                    {{- if ne $lang .Lang }}
+                    <li>
+                        <a href="{{ .Permalink }}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+                           aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                            {{- if eq .Lang "fr" }}
+                            <span class="flag">🇫🇷</span>
+                            {{- else if eq .Lang "en" }}
+                            <span class="flag">🇬🇧</span>
+                            {{- else }}
+                            {{- .Lang | title -}}
+                            {{- end -}}
+                        </a>
+                    </li>
+                    {{- end -}}
+                    {{- end }}
+                </ul>
+                
+                {{- end }}
+                
+
                 {{- end }}
             </span>
         </div>

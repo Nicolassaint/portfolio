@@ -1,43 +1,96 @@
+# Configuration générale
 baseURL: "https://nicolassaint.fr/"
 publishDir: "docs"
 relativeURLs: false
 canonifyURLs: true
-languageCode: en-us
-title: Nicolas Saint
 theme: PaperMod
 
-menu:
-  main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
-    # - identifier: blog
-    #   name: Blog
-    #   url: /blog
-    #   weight: 20
-    # - identifier: projects
-    #   name: Projects
-    #   url: /projects
-    #   weight: 30
-    - identifier: education
-      name: Education
-      url: /education/
-      weight: 35
-    - identifier: experience
-      name: Experience
-      url: /experience/
-      weight: 40
-    - identifier: chat
-      name: Chat
-      url: /chat/
-      weight: 50
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 55
+# Configuration multilingue
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
 
+languages:
+  en:
+    contentDir: "content/english"
+    languageCode: "en-us"
+    languageName: "English"
+    weight: 1
+    title: "Nicolas Saint"
+    params:
+      profileMode:
+        enabled: true
+        title: "Nicolas Saint"
+        subtitle: "Hi 👋 I'm Nicolas, a tech and open-source AI 🤗 enthusiast passionate about solving complex problems. As a Data Science intern at the [**Ministry of Economy and Finance**](https://www.economie.gouv.fr/), I'm developing robust, sovereign, and privacy-focused AI tools (chatbots, RAG systems, summarization tools...) for the French government using state-of-the-art open-source models."
+        imageUrl: "home/nicolassaint-london.jpg"
+        imageWidth: 220
+        imageHeight: 220
+        buttons:
+          - name: "Resume"
+            url: "https://drive.google.com/file/d/1tIEjer-gTrKwKipt7h65y3tN4NgUV09d/view"
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 10
+        - identifier: education
+          name: Education
+          url: /education/
+          weight: 35
+        - identifier: experience
+          name: Experience
+          url: /experience/
+          weight: 40
+        - identifier: chat
+          name: Chat
+          url: /chat/
+          weight: 50
+        - identifier: search
+          name: Search
+          url: /en/search
+          weight: 55
 
+  fr:
+    contentDir: "content/french"
+    languageCode: "fr-fr"
+    languageName: "Français"
+    weight: 2
+    title: "Nicolas Saint"
+    params:
+      profileMode:
+        enabled: true
+        title: "Nicolas Saint"
+        subtitle: "Bonjour 👋 Je suis Nicolas, un passionné de technologie et d'IA open-source 🤗, enthousiaste à l'idée de résoudre des problèmes complexes. En tant que stagiaire Data Scientist au [**Ministère de l'Économie et des Finances**](https://www.economie.gouv.fr/), je développe des outils d'IA robustes, souverains et respectueux des données privées (chatbots, systèmes RAG, outils de résumé...) pour le gouvernement français en utilisant des modèles open-source à l'état de l'art."
+        imageUrl: "home/nicolassaint-london.jpg"
+        imageWidth: 220
+        imageHeight: 220
+        buttons:
+          - name: "CV"
+            url: "https://drive.google.com/file/d/1tIEjer-gTrKwKipt7h65y3tN4NgUV09d/view"
+    menu:
+      main:
+        - identifier: home
+          name: Accueil
+          url: /
+          weight: 10
+        - identifier: education
+          name: Formation
+          url: /education/
+          weight: 35
+        - identifier: experience
+          name: Expérience
+          url: /experience/
+          weight: 40
+        - identifier: chat
+          name: Chat
+          url: /chat/
+          weight: 50
+        - identifier: search
+          name: Recherche
+          url: /fr/recherche
+          weight: 55
+
+# Paramètres communs
 params:
   # theme
   showToc: true
@@ -111,4 +164,3 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-

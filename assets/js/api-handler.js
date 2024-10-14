@@ -1,13 +1,20 @@
 class APIHandler {
-    constructor() {
-        // Use relative URL to go through proxy
+    constructor(language = 'en') {
         this.endpoint = 'https://api.olympia.bhub.cloud/generate';
-        this.promptManager = new PromptManager();
+        this.promptManager = new PromptManager(language);
+        // console.log(`APIHandler: Création avec la langue ${language}`);
+    }
+
+    setLanguage(language) {
+        // console.log(`APIHandler: Changement de langue à ${language}`);
+        this.promptManager.setLanguage(language);
     }
 
     async sendMessage(userMessage) {
+        // console.log(`APIHandler: Envoi du message avec la langue ${this.promptManager.language}`);
         const prompt = this.promptManager.buildPrompt(userMessage);
-        // console.log('Sending request with prompt:', prompt);
+        // console.log('Envoi de la requête avec le prompt:', prompt);
+        // console.log('Langue actuelle:', this.promptManager.language); // Ajout d'un log pour vérifier la langue actuelle
 
         try {
             const requestBody = {
@@ -51,7 +58,7 @@ class APIHandler {
 
             return assistantResponse;
         } catch (error) {
-            console.error('Detailed error:', {
+            console.error('Erreur détaillée:', {
                 message: error.message,
                 stack: error.stack
             });
