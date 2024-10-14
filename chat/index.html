@@ -180,7 +180,10 @@
         <div class="input-area">
             <div class="input-container">
                 <input type="text" id="user-input" placeholder="Type your message..." />
-                <button id="send-button">Send</button>
+                <button id="send-button">
+                    <span class="send-text">Send</span>
+                    <span class="send-icon">➤</span>
+                </button>
             </div>
         </div>
     </div>
@@ -192,8 +195,6 @@
 <script src="https://nicolassaint.fr/js/prompt-system.js"></script>
 <script src="https://nicolassaint.fr/js/api-handler.js"></script>
 <script src="https://nicolassaint.fr/js/chat-interface.js"></script>
-
-
 
 <style>
 .chat-container {
@@ -294,11 +295,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-#send-button:hover {
-    opacity: 0.9;
+#send-button .send-icon {
+    display: none;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    #send-button {
+        padding: 12px;
+    }
+
+    #send-button .send-text {
+        display: none;
+    }
+
+    #send-button .send-icon {
+        display: inline;
+    }
 }
 
 .typing-indicator {
@@ -331,6 +346,7 @@
     50% { transform: translateY(-4px); }
 }
 </style>
+
         </div>
     </article>
 
