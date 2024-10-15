@@ -97,6 +97,33 @@
     </item>
     
     <item>
+      <title>FastAPI</title>
+      <link>https://nicolassaint.fr/fr/tags/fastapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-tuning</title>
+      <link>https://nicolassaint.fr/fr/tags/fine-tuning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/fine-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLUX</title>
+      <link>https://nicolassaint.fr/fr/tags/flux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/flux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Google Script</title>
       <link>https://nicolassaint.fr/fr/tags/google-script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -250,11 +277,47 @@
     </item>
     
     <item>
+      <title>Ollama</title>
+      <link>https://nicolassaint.fr/fr/tags/ollama/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/ollama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Optimisation</title>
       <link>https://nicolassaint.fr/fr/tags/optimisation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/fr/tags/optimisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandas</title>
+      <link>https://nicolassaint.fr/fr/tags/pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyPi</title>
+      <link>https://nicolassaint.fr/fr/tags/pypi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/pypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pytest</title>
+      <link>https://nicolassaint.fr/fr/tags/pytest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/pytest/</guid>
       <description></description>
     </item>
     
@@ -273,6 +336,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/fr/tags/rag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>https://nicolassaint.fr/fr/tags/s3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/s3/</guid>
       <description></description>
     </item>
     
@@ -318,6 +390,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolassaint.fr/fr/tags/streamlit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision par ordinateur</title>
+      <link>https://nicolassaint.fr/fr/tags/vision-par-ordinateur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/tags/vision-par-ordinateur/</guid>
       <description></description>
     </item>
     

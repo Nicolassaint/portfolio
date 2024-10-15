@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ollama on Nicolas Saint</title>
+    <link>https://nicolassaint.fr/fr/tags/ollama/</link>
+    <description>Recent content in Ollama on Nicolas Saint</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="https://nicolassaint.fr/fr/tags/ollama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OlympIA</title>
+      <link>https://nicolassaint.fr/fr/projects/olympia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/projects/olympia/</guid>
+      <description>Chatbot pour le Ministère de l&amp;#39;Économie et des Finances</description>
+    </item>
+    
+    <item>
+      <title>API OlympIA</title>
+      <link>https://nicolassaint.fr/fr/projects/olympia-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolassaint.fr/fr/projects/olympia-api/</guid>
+      <description>API d&amp;#39;IA générative pour le Ministère de l&amp;#39;Économie et des Finances</description>
+    </item>
+    
+  </channel>
+</rss>

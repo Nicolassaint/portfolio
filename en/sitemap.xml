@@ -2,6 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nicolassaint.fr/en/projects/olympia/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/projects/olympia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/projects/olympia/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/projects/olympia-api/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/projects/olympia-api/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/projects/olympia-api/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/projects/olympiabhub/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/projects/olympiabhub/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/projects/olympiabhub/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/projects/etna/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/projects/etna/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/projects/etna/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/projects/flux-finetuning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/projects/flux-finetuning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/projects/flux-finetuning/"
+                />
+  </url><url>
     <loc>https://nicolassaint.fr/en/education/polytechnique/</loc>
     <xhtml:link
                 rel="alternate"
@@ -174,6 +234,8 @@
   </url><url>
     <loc>https://nicolassaint.fr/en/tags/computer-science/</loc>
   </url><url>
+    <loc>https://nicolassaint.fr/en/tags/computer-vision/</loc>
+  </url><url>
     <loc>https://nicolassaint.fr/en/tags/consulting/</loc>
   </url><url>
     <loc>https://nicolassaint.fr/en/tags/data/</loc>
@@ -226,6 +288,42 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://nicolassaint.fr/en/experience/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/fastapi/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/fastapi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/fastapi/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/fine-tuning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/fine-tuning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/fine-tuning/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/flux/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/flux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/flux/"
                 />
   </url><url>
     <loc>https://nicolassaint.fr/en/tags/google-script/</loc>
@@ -388,7 +486,67 @@
                 href="https://nicolassaint.fr/en/tags/nlp/"
                 />
   </url><url>
+    <loc>https://nicolassaint.fr/en/tags/ollama/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/ollama/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/ollama/"
+                />
+  </url><url>
     <loc>https://nicolassaint.fr/en/tags/optimization/</loc>
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/pandas/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/pandas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/pandas/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/projects/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/pypi/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/pypi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/pypi/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/pytest/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/pytest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/pytest/"
+                />
   </url><url>
     <loc>https://nicolassaint.fr/en/tags/python/</loc>
     <xhtml:link
@@ -412,6 +570,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://nicolassaint.fr/en/tags/rag/"
+                />
+  </url><url>
+    <loc>https://nicolassaint.fr/en/tags/s3/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://nicolassaint.fr/fr/tags/s3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://nicolassaint.fr/en/tags/s3/"
                 />
   </url><url>
     <loc>https://nicolassaint.fr/en/tags/scrum/</loc>
