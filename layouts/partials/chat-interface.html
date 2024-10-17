@@ -1,8 +1,6 @@
-{{ $apiToken := resources.Get "js/api-token.js" }}
 {{ $promptSystem := resources.Get "js/prompt-system.js" }}
 {{ $apiHandler := resources.Get "js/api-handler.js" }}
 {{ $chatInterface := resources.Get "js/chat-interface.js" }}
-{{ $config := resources.Get "js/config.js" }}
 
 <div class="chat-container">
     <div class="chat-box">
@@ -39,8 +37,6 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-<script src="{{ $apiToken.RelPermalink }}"></script>
-<script src="{{ $config.RelPermalink }}"></script>
 <script src="{{ $promptSystem.RelPermalink }}"></script>
 <script src="{{ $apiHandler.RelPermalink }}"></script>
 <script src="{{ $chatInterface.RelPermalink }}"></script>
