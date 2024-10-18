@@ -22,13 +22,8 @@ class APIHandler {
         }
     }
 
-    setLanguage(language) {
-        this.language = language;
-        this.promptManager.setLanguage(language);
-    }
-
     async sendMessage(userMessage) {
-        const prompt = this.promptManager.buildPrompt(userMessage);
+        const conversationHistory = this.promptManager.getConversationHistory();
 
         try {
             const response = await fetch(this.apiUrl + '/.netlify/functions/sendMessage', {
@@ -37,7 +32,9 @@ class APIHandler {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    userMessage: prompt,
+                    userMessage: userMessage,
+                    language: this.language,
+                    conversationHistory: conversationHistory
                 })
             });
 
